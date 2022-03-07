@@ -99,3 +99,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
    
    
 </ul><br><br>
+
+##
+
+<h2>Estou aberto para dicas e conselhos na área de desenvolvimento web</h2>
+
+##
+
+<hr>
+<p>Made with 💜 by João Artur 👋 See my <a href="https://www.linkedin.com/in/magalhesartur/">Linkedin</a></p>
