@@ -11,12 +11,11 @@ const routes = new Router();
 
 routes.post("/sessions", SessionController.create);
 routes.get("/hello", helloController.index);
+routes.post("/users", UsersController.create);
 
 routes.use(auth);
 
 routes.get("/users", UsersController.index);
-
-routes.post("/users", UsersController.create);
 
 routes.get("/users/:id", UsersController.show);
 

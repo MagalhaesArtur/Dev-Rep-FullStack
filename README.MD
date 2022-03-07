@@ -41,3 +41,22 @@
 
 <img src="./assets/cryp.png" alt="cryp.Js">
 <p> Funções que fazem a criptografia e a comparação dos dados quando o usuário faz login.</p>
+
+<h2 align="center">
+    Front-End Feito em React
+</h2>
+
+<br>
+
+<img src="./assets/login.gif" alt="login">
+<p>Fazendo o login, lembrando que o usuário já está pré-cadastrado no banco de dados.</p>
+
+<br>
+
+<img src="./assets/rep.gif" alt="repo">
+<p>Acessando os repositórios do usuário, lembrando que cada usuário só pode ver os seus repositórios. Outros usuários não podem ver os repositórios que nao sejam seus.</p>
+
+<br>
+
+<img src="./assets/logout.gif" alt="logout">
+<p>Fazendo o Log Out, limpando o localstorage. Lembrando que o usuário só pode acessar a página principal se estiver logado e com um token válido, como podemos ver no gif.</p>
