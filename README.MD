@@ -8,6 +8,28 @@
      O usuário que tem uma conta pré cadastrada no banco de dados, pode fazer o login, gerando um token, que expira depois de um tempo. Quando logado, o usuário pode inserir os links dos seus repositórios no GitHub, e a aplicação irá armazenar o nome e o dono do repositório no banco de dados(MongoDB). Vale lembrar que o sistema também conta uma criptografia não reversível de senhas, oferecendo mais segurança caso o banco seja invadido ou algo do tipo.</li>
 </ul><br><br>
 
+## :rocket: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+✔️React
+
+✔️React Router DOM
+
+✔️Axios
+
+✔️React Context
+
+✔️Prettier
+
+✔️React Hooks
+
+✔️Node JS
+
+✔️MongoDD
+
+##
+
 <h2 align="center">
     Back-End
 </h2>
@@ -42,6 +64,8 @@
 <img src="./assets/cryp.png" alt="cryp.Js">
 <p> Funções que fazem a criptografia e a comparação dos dados quando o usuário faz login.</p>
 
+##
+
 <h2 align="center">
     Front-End Feito em React
 </h2>
@@ -60,3 +84,18 @@
 
 <img src="./assets/logout.gif" alt="logout">
 <p>Fazendo o Log Out, limpando o localstorage. Lembrando que o usuário só pode acessar a página principal se estiver logado e com um token válido, como podemos ver no gif.</p>
+
+##
+
+<h1 align="center">O que aprendi 👨‍💻</h1>
+<ul>
+    <li>Melhor Entendimento do ReactJS no geral </li>
+    <li>Uso efetivo de hooks</li>
+    <li>Integração front-end/back-end na prática</li>
+    <li>Axios para o consumo da API criada com NodeJS</li>
+    <li>React Router DOM para o uso de rotas single-page </li>
+    <li>Uso efetivo e prático do login jwt</li>
+     <li>Uso efetivo e prático da criptografia de dados</li>
+   
+   
+</ul><br><br>
