@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #201b2c;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: #2f2841;
+  box-shadow: 1px 10px 20px #00000056;
+  color: #77ffc0;
+  height: 60px;
+  justify-content: space-between;
+}
+.nav h1 {
+  margin-left: 10px;
+}
+
+.logoutBtn {
+  border: 2px solid #00ff88;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 15px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #2b134b;
+  background-color: #00ff88;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.logoutBtn:hover {
+  cursor: pointer;
+  background-color: #2b134b;
+  color: #00ff88;
+}
+.searchContainer {
+  display: flex;
+  color: #00ff88;
+  width: 90%;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #2f2841;
+  align-items: center;
+  margin: 2rem 0px;
+  box-shadow: 10px 10px 40px #00000056;
+  justify-content: space-between;
+}
+.contentContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.searchContainer label {
+  font-size: 24px;
+}
+#query {
+  width: 50%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #524670;
+  color: #f0ffffde;
+  font-size: 18px;
+  box-shadow: 10px 10px 40px #00000056;
+  outline: none;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 50ms;
+  border: transparent 1px solid;
+  transition-duration: 300ms;
+}
+
+#query:focus,
+#query:hover {
+  box-shadow: 10px 10px 40px #000056;
+  border: #00ff88 1px solid;
+}
+
+.btn {
+  border: 2px solid #00ff88;
+  padding: 10px;
+
+  border-radius: 15px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #2b134b;
+  background-color: #00ff88;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #2b134b;
+  color: #00ff88;
+}
+.btns {
+  width: 20%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContentContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mainContentContainer h1 {
+  color: #00ff88;
+}
+
+.repositoriesContainer {
+  display: flex;
+  background-color: #2f2841;
+  width: 90%;
+  box-shadow: 10px 10px 40px #00000056;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.item {
+  width: 70%;
+  list-style: none;
+  background-color: #524670;
+  border-radius: 20px;
+  box-shadow: 10px 10px 40px #00000056;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.info {
+  display: flex;
+  color: #f0ffffde;
+  justify-content: center;
+  flex-direction: column;
+}
+.owner {
+  font-size: 20px;
+}
+.name {
+  font-size: 28px;
+}
+.deleteBtn {
+  border: none;
+  background-color: #524670;
+  color: #00ff88;
+  font-size: 25px;
+  padding: 10px;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 50ms;
+  border: transparent 1px solid;
+  transition-duration: 300ms;
+}
+
+.deleteBtn:hover {
+  background-color: #2b134b;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px #00000056;
+  cursor: pointer;
+}
+
+.newRepositoriesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newRepo {
+  display: flex;
+  color: #00ff88;
+  width: 90%;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #2f2841;
+  align-items: center;
+  margin: 2rem 0px;
+  box-shadow: 10px 10px 40px #00000056;
+  justify-content: space-between;
+}
+.newRepo label {
+  font-size: 28px;
+}
+#newRepoInput {
+  width: 50%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #524670;
+  color: #f0ffffde;
+  font-size: 18px;
+  box-shadow: 10px 10px 40px #00000056;
+  outline: none;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 50ms;
+  border: transparent 1px solid;
+  transition-duration: 300ms;
+}
+
+#newRepoInput:focus,
+#newRepoInput:hover {
+  box-shadow: 10px 10px 40px #000056;
+  border: #00ff88 1px solid;
+}
+
+.addRepBtn {
+  border: 2px solid #00ff88;
+  padding: 10px;
+  width: 15%;
+  border-radius: 15px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #2b134b;
+  background-color: #00ff88;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-delay: 50ms;
+  transition-duration: 300ms;
+  box-shadow: 0px 10px 40px -12px #00ff8052;
+}
+.addRepBtn:hover {
+  cursor: pointer;
+  background-color: #2b134b;
+  color: #00ff88;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00ff88;
+  background-color: #2f2841;
+}

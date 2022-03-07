@@ -1,0 +1,25 @@
+import mongoose from "mongoose";
+
+const RepositorySchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: true,
+    },
+    url: {
+      type: String,
+      required: true,
+      unique: true,
+    },
+    UserId: {
+      type: String,
+      required: true,
+    },
+  },
+
+  {
+    timestamps: true,
+  }
+);
+
+export default mongoose.model("Repository", RepositorySchema);
